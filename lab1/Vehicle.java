@@ -83,12 +83,22 @@ public class Vehicle implements Movable{
     // TODO fix this method according to lab pm
     public void gas(double amount){
         incrementSpeed(amount);
+        isStationary = false;
     }
 
     // TODO fix this method according to lab pm
     public void brake(double amount){
         decrementSpeed(amount);
+        if (currentSpeed == 0) {
+            isStationary = true;
+        }
     }
+
+    protected void positionCar(double x, double y) {
+        this.xCord = x;
+        this.yCord = y;
+    }
+
 
     public double getXCord() {
         return xCord;
@@ -108,6 +118,10 @@ public class Vehicle implements Movable{
 
     public Direction getDirection() {
         return this.direction;
+    }
+
+    public boolean isStationary() {
+        return isStationary;
     }
 
     @Override
