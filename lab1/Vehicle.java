@@ -94,7 +94,7 @@ public class Vehicle implements Movable{
         }
     }
 
-    protected void positionCar(double x, double y) {
+    protected void positionVehicle(double x, double y) {
         this.xCord = x;
         this.yCord = y;
     }
