@@ -1,10 +1,10 @@
-package lab1testing;
+package lab2testing;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.*;
 
-import lab1.Scania;
+import lab2.Scania;
 
 public class TestScania {
     private Scania scania;

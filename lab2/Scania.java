@@ -1,4 +1,4 @@
-package lab1;
+package lab2;
 import java.awt.*;
 
 public class Scania extends TruckWithRamp{

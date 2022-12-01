@@ -1,13 +1,12 @@
-package lab1testing;
+package lab2testing;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.*;
 
-import lab1.Saab95;
-import lab1.Volvo240;
-import lab1.Car;
-import lab1.CarTransporter;
+import lab2.Saab95;
+import lab2.Volvo240;
+import lab2.CarTransporter;
 
 public class TestCarTransporter {
     private Volvo240 volvo;
