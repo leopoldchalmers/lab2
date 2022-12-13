@@ -7,6 +7,8 @@ Updates the current speed of the instance object based on amount.
 
 The input (amount) must be a double from 0 to 1.
 
+The vehicle must be in a state where it can move
+
 Calls method "incrementSpeed" with amount as argument which increases the currentSpeed
 
 Updates instance variable isStationary to false
@@ -16,8 +18,7 @@ Volvo:
 Same as for Vehicle
 
 Scania:
-Same as for Vehicle, but checks if ramp islowered before running gas()
-
+Same as for Vehicle, but checks if ramp islowered before running gas() (checks state)
 
     • brake() - contract
 
